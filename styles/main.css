@@ -1,0 +1,101 @@
+/***** BASE STYLES *****/
+
+* {
+  font-family: 'Nunito', sans-serif;
+  margin:0;
+}
+
+* {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+'Playfair Display', serif;
+
+/***** GRID *****/
+
+.full-width {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.third-width {
+  width: 33.33%;
+  margin: 0 auto;
+}
+
+/** Header **/
+header .third-width {
+  float:left;
+  text-align: center;
+}
+
+#left {
+  background: linear-gradient(to left, #a9b7c0, #c0a9ac);
+  height:2em;
+  font-size:1.5em;
+  padding-top:.25em;
+}
+
+#middle {
+  background-color: #a9b7c0;
+  height:2em;
+  font-size:1.5em;
+  padding-top:.25em;
+}
+
+#right {
+  background: linear-gradient(to left, #c0a9ac, #a9b7c0);
+  height:2em;
+  font-size:1.5em;
+  padding-top:.25em;
+}
+
+.separator {
+  width:.25em;
+  height:inherit;
+  border-radius: .25em;
+  -webkit-border-radius:.25em;
+  -moz-border-radius:.25em;
+  background-color: #c7d8c6;
+  float:right;
+  margin-top:-.25em;
+}
+
+.separator:hover {
+  transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+}
+
+.third-width a {
+  text-decoration: none;
+  color:white;
+  font-weight: bold;
+  text-shadow: 3px 2px 1px	rgb(200,200,200);
+}
+
+.third-width a:hover {
+  text-decoration: underline;
+  text-shadow: 0 5 2 auto;
+}
+
+
+/*** About Area ***/
+body, main {
+  clear:both;
+  background-color: rgba(	108, 100, 139, 0.3);
+  background: linear-gradient(to top,rgba(	108, 100, 139, 0.7), #cccbc6);
+}
+
+
+/*** Work Area ***/
+
+
+
+/*** Contact Area ***/
