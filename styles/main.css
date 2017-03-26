@@ -56,23 +56,23 @@ header .third-width {
 
 #left {
   background: linear-gradient(to top, #c0a9ac, #a9b7c0);
-  font-size:1.5em;
-  height:2em;
-  padding-top:.25em;
+  font-size:3em;
+  height:4em;
+  padding-top:1.2em;
 }
 
 #middle {
   background-color: #c0a9ac;
-  font-size:1.5em;
-  height:2em;
-  padding-top:.25em;
+  font-size:3em;
+  height:4em;
+  padding-top:1.2em;
 }
 
 #right {
   background: linear-gradient(to bottom, #c0a9ac, #a9b7c0);
-  font-size:1.5em;
-  height:2em;
-  padding-top:.25em;
+  font-size:3em;
+  height:4em;
+  padding-top:1.2em;
 }
 
 @media only screen and (min-device-width: 768px) {
@@ -132,8 +132,8 @@ div.half-width {
 }
 
 h2 {
-  font-size:3em;
-  padding:.25em 0 0 1em;
+  font-size:4em;
+  padding:1em 0 0 .8em;
 }
 
 em.red {
@@ -148,10 +148,12 @@ em span {
   div p {
     color: rgba(0, 0, 0, 0.5);
     float:left;
+    font-size:2.8em;
     line-height: 2;
     min-width:20em;
-    padding-left:3em;
+    padding-left:1em;
     width:190%;
+
   }
 
   #me-div {
@@ -191,73 +193,35 @@ p a:hover {
   clear:both;
 }
 
+
+#projects-work p {
+  margin-left: -3em;
+}
+
+
 @media only screen and (max-device-width: 768px) {
   #projects-work .third-width p {
     float:left;
-    margin-left:-3em;
+    margin-left:-1em;
     min-width:10em;
     text-align: left;
     width:100%;
   }
+    #projects-work h3 {
+      font-size:4em;
+  }
+
 }
+
+
 
 #projects-work .third-width {
   float:left;
-  padding:0 2em 0 3em;
+  padding:1em 2em 0 3em;
   text-align: left;
 }
 
-#projects-work .third-width p {
-  margin-left:-3em;
-}
-
-#projects-work h3 {
-  font-size:2em;
-}
-
-#projects-work p a {
-    font-weight: bold;
-    text-decoration: none;
-}
-
-#projects-work p a:hover {
-  text-decoration: underline;
-}
-
 /*** Contact Area ***/
-
-@media only screen and (max-device-width: 768px) {
-
-  #email {
-    padding-top:.3em;
-  }
-
-  #email p {
-    margin-left:.2em;
-  }
-
-  #left_mail {
-    margin: 1em 0 0 3em;
-  }
-
-  #contact-info {
-    padding-top:.32em;
-  }
-
-  #socialmedia-header {
-    font-size: 1em;
-    margin-left:-1.5em;
-    padding-right:.6em;
-  }
-
-  ul {
-    margin-left:-1.6em;
-  }
-
-  ul li {
-    width: .3em;
-  }
-}
 
 #email, #contact-info {
   margin-top:3em;
@@ -283,7 +247,45 @@ p a:hover {
   clear:both;
   float:left;
   margin-left:25%;
+}
 
+@media only screen and (max-device-width: 768px) {
+
+  #email {
+    padding-top:.3em;
+    margin-left: -5em;
+  }
+
+  #contact h3 {
+    font-size:3em;
+  }
+
+  #email p {
+    margin-left:.2em;
+    font-size:2.5em;
+    width: 50%;
+  }
+
+  #left_mail {
+    float:right;
+  }
+
+  #contact-info {
+    padding-top:.32em;
+  }
+
+  #socialmedia-header {
+    margin-left:-1.5em;
+    padding-right:.6em;
+  }
+
+  #socialmedia-header h3 {
+    font-size: 1em;
+  }
+
+  ul li {
+    width: .3em;
+  }
 }
 
 ul li img {
