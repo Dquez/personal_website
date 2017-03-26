@@ -41,7 +41,7 @@ a:hover {
   width:50%;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-device-width: 768px) {
   .third-width {
     margin: 0 auto;
     width: 33.33%;
@@ -75,7 +75,7 @@ header .third-width {
   padding-top:.25em;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-device-width: 768px) {
   #left {
     background: linear-gradient(to left, #a9b7c0, #c0a9ac);
     font-size:1.5em;
@@ -98,7 +98,7 @@ header .third-width {
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-device-width: 768px) {
   .separator {
     display:none;
   }
@@ -144,7 +144,7 @@ em span {
   color:green;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-device-width: 768px) {
   div p {
     color: rgba(0, 0, 0, 0.5);
     float:left;
@@ -165,7 +165,7 @@ em span {
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-device-width: 768px) {
   div p {
     color: rgba(0, 0, 0, 0.5);
     float:left;
@@ -191,7 +191,7 @@ p a:hover {
   clear:both;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-device-width: 768px) {
   #projects-work .third-width p {
     float:left;
     margin-left:-3em;
@@ -226,7 +226,7 @@ p a:hover {
 
 /*** Contact Area ***/
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-device-width: 768px) {
 
   #email {
     padding-top:.3em;
