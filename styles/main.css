@@ -140,10 +140,6 @@ em.red {
   color:red;
 }
 
-em span {
-  color:green;
-}
-
 @media only screen and (max-device-width: 768px) {
   div p {
     color: rgba(0, 0, 0, 0.5);
@@ -210,10 +206,7 @@ p a:hover {
     #projects-work h3 {
       font-size:4em;
   }
-
 }
-
-
 
 #projects-work .third-width {
   float:left;
