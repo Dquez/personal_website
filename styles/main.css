@@ -3,19 +3,20 @@
 * {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
-  font-family: 'Nunito', sans-serif;
+  font-family: Helvetica;
   margin:0;
 }
 
 a {
-  color:white;
-  font-weight: bold;
+  font-style: italic;
   text-decoration: none;
+  color: rgba(0, 0, 0, 1);
 }
 
 h2, h3 {
-  font-family: 'Playfair Display', serif;
-  color:white;
+  font-family: Helvetica;
+  font-weight:bold;
+  color:black;
 }
 
 a:hover {
@@ -54,22 +55,29 @@ header .third-width {
   text-align: center;
 }
 
+#left > a, #middle > a, #right > a {
+    color: white;
+    font-style: normal;
+    font-weight:bold;
+}
+
 #left {
-  background: linear-gradient(to top, #c0a9ac, #a9b7c0);
+  background-color: black;
+  color:white;
   font-size:3em;
   height:4em;
-  padding-top:1.2em;
+  padding-top:3em;
 }
 
 #middle {
-  background-color: #c0a9ac;
+  background-color: black;
   font-size:3em;
   height:4em;
   padding-top:1.2em;
 }
 
 #right {
-  background: linear-gradient(to bottom, #c0a9ac, #a9b7c0);
+  background-color: black;
   font-size:3em;
   height:4em;
   padding-top:1.2em;
@@ -77,24 +85,24 @@ header .third-width {
 
 @media only screen and (min-device-width: 768px) {
   #left {
-    background: linear-gradient(to left, #a9b7c0, #c0a9ac);
+    background: black;
     font-size:1.5em;
     height:2em;
-    padding-top:.25em;
+    padding-top:.4em;
   }
 
   #middle {
-    background-color: #a9b7c0;
+    background-color: black;
     font-size:1.5em;
     height:2em;
-    padding-top:.25em;
+    padding-top:.4em;
   }
 
   #right {
-    background: linear-gradient(to left, #c0a9ac, #a9b7c0);
+    background: black;
     font-size:1.5em;
     height:2em;
-    padding-top:.25em;
+    padding-top:.4em;
   }
 }
 
@@ -111,7 +119,7 @@ header .third-width {
   -moz-border-radius:.25em;
   float:right;
   height:inherit;
-  margin-top:-.25em;
+  margin-top:-.4em;
   width:.25em;
 }
 
@@ -136,20 +144,15 @@ h2 {
   padding:1em 0 0 .8em;
 }
 
-em.red {
-  color:red;
-}
-
 @media only screen and (max-device-width: 768px) {
   div p {
-    color: rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 1);
     float:left;
     font-size:2.8em;
     line-height: 2;
     min-width:20em;
     padding-left:1em;
     width:190%;
-
   }
 
   #me-div {
@@ -165,10 +168,10 @@ em.red {
 
 @media only screen and (min-device-width: 768px) {
   div p {
-    color: rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 1);
     float:left;
     font-size: 1.1em;
-    padding-left:3em;
+    padding: 1em 0 0 3em;
   }
 
   #me {
@@ -194,6 +197,9 @@ p a:hover {
   margin-left: -3em;
 }
 
+#smaller-width {
+  padding-right:4em;
+}
 
 @media only screen and (max-device-width: 768px) {
   #projects-work .third-width p {
@@ -219,6 +225,7 @@ p a:hover {
 #email, #contact-info {
   margin-top:3em;
 }
+
 #email {
   clear:both;
 }
@@ -233,6 +240,7 @@ p a:hover {
 }
 
 #contact p {
+  margin-top:-1em;
   padding-left:2.7em;
 }
 
@@ -242,8 +250,12 @@ p a:hover {
   margin-left:25%;
 }
 
-@media only screen and (max-device-width: 768px) {
+#mail-img {
+  width:50px;
+  height:50px;
+}
 
+@media only screen and (max-device-width: 768px) {
   #email {
     padding-top:.3em;
     margin-left: -5em;
@@ -288,5 +300,5 @@ ul li img {
 
 li {
   display:inline-block;
-  padding: 1.5em 3em 1em 0;
+  padding: 1.5em 3em 1em .5em;
 }
