@@ -143,6 +143,7 @@ h2 {
   font-size:4em;
   float:left;
   padding: 0.5em 0 .2em .8em;
+
   clear:both;
 }
 
@@ -152,7 +153,7 @@ h2 {
     clear:both;
     float:left;
     font-size:4em;
-    padding:2em 0 1em .8em;
+    padding:2em 0 1em .8em;   
   }
 
   div p {
