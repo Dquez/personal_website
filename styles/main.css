@@ -141,10 +141,20 @@ div.half-width {
 
 h2 {
   font-size:4em;
-  padding:1em 0 0 .8em;
+  float:left;
+  padding: 0.5em 0 .2em .8em;
+  clear:both;
 }
 
+
 @media only screen and (max-device-width: 768px) {
+  h2 {
+    clear:both;
+    float:left;
+    font-size:4em;
+    padding:2em 0 1em .8em;
+  }
+
   div p {
     color: rgba(0, 0, 0, 1);
     float:left;
